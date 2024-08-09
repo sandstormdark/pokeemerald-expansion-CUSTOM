@@ -253,10 +253,10 @@ PLACEHOLDER_ANIM_SINGLE_FRAME(PidgeotMega);
 #if P_FAMILY_RATTATA
 static const union AnimCmd sAnim_Rattata_1[] =
 {
-    ANIMCMD_FRAME(0, 3),
-    ANIMCMD_FRAME(1, 50),
-    ANIMCMD_FRAME(1, 28),
-    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 11),
+    ANIMCMD_FRAME(0, 11),
+    ANIMCMD_FRAME(1, 11),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -662,13 +662,22 @@ static const union AnimCmd sAnim_Vileplume_1[] =
 #if P_GEN_2_CROSS_EVOS
 static const union AnimCmd sAnim_Bellossom_1[] =
 {
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 22),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
     ANIMCMD_END,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -1531,17 +1540,11 @@ static const union AnimCmd sAnim_Hitmonchan_1[] =
 #if P_GEN_2_CROSS_EVOS
 static const union AnimCmd sAnim_Hitmontop_1[] =
 {
-    ANIMCMD_FRAME(0, 4),
-    ANIMCMD_FRAME(1, 4),
-    ANIMCMD_FRAME(0, 4),
-    ANIMCMD_FRAME(1, 4),
-    ANIMCMD_FRAME(0, 4),
-    ANIMCMD_FRAME(1, 4),
-    ANIMCMD_FRAME(0, 4),
-    ANIMCMD_FRAME(1, 4),
-    ANIMCMD_FRAME(0, 4),
-    ANIMCMD_FRAME(1, 4),
-    ANIMCMD_FRAME(0, 4),
+    ANIMCMD_FRAME(0, 12),
+    ANIMCMD_FRAME(1, 26),
+    ANIMCMD_FRAME(0, 14),
+    ANIMCMD_FRAME(1, 32),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -1550,8 +1553,7 @@ static const union AnimCmd sAnim_Hitmontop_1[] =
 #if P_FAMILY_LICKITUNG
 static const union AnimCmd sAnim_Lickitung_1[] =
 {
-    ANIMCMD_FRAME(0, 28),
-    ANIMCMD_FRAME(1, 32),
+    ANIMCMD_FRAME(1, 16),
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_END,
 };
@@ -1878,10 +1880,11 @@ static const union AnimCmd sAnim_Elekid_1[] =
 
 static const union AnimCmd sAnim_Electabuzz_1[] =
 {
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 40),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 22),
+    ANIMCMD_FRAME(1, 22),
+    ANIMCMD_FRAME(0, 22),
+    ANIMCMD_FRAME(1, 22),
+    ANIMCMD_FRAME(0, 11),
     ANIMCMD_END,
 };
 
@@ -2643,11 +2646,11 @@ static const union AnimCmd sAnim_Marill_1[] =
 
 static const union AnimCmd sAnim_Azumarill_1[] =
 {
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 11),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 15),
     ANIMCMD_END,
 };
 #endif //P_FAMILY_MARILL
@@ -3055,8 +3058,12 @@ PLACEHOLDER_ANIM_SINGLE_FRAME(HeracrossMega);
 #if P_FAMILY_SNEASEL
 static const union AnimCmd sAnim_Sneasel_1[] =
 {
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 8),
+    ANIMCMD_FRAME(0, 8),
+    ANIMCMD_FRAME(1, 8),
+    ANIMCMD_FRAME(0, 8),
+    ANIMCMD_FRAME(1, 8),
+    ANIMCMD_FRAME(0, 8),
     ANIMCMD_END,
 };
 
@@ -3360,7 +3367,17 @@ PLACEHOLDER_ANIM_SINGLE_FRAME(TyranitarMega);
 #if P_FAMILY_LUGIA
 static const union AnimCmd sAnim_Lugia_1[] =
 {
-    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 5),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 5),
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
@@ -5077,12 +5094,11 @@ static const union AnimCmd sAnim_Regice_1[] =
 #if P_FAMILY_REGISTEEL
 static const union AnimCmd sAnim_Registeel_1[] =
 {
+    ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 8),
+    ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 20),
-    ANIMCMD_FRAME(1, 35),
-    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
 #endif //P_FAMILY_REGISTEEL
