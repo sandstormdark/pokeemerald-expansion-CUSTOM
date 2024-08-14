@@ -376,6 +376,9 @@ const struct TrainerClass gTrainerClasses[TRAINER_CLASS_COUNT] =
     TRAINER_CLASS(PIKE_QUEEN, "PIKE QUEEN"),
     TRAINER_CLASS(PYRAMID_KING, "PYRAMID KING"),
     TRAINER_CLASS(RS_PROTAG, "{PKMN} TRAINER"),
+    TRAINER_CLASS(TEAM_GALACTIC, "TEAM GALACTIC"),
+    TRAINER_CLASS(GALACTIC_LEADER, "GALACTIC LEADER", 80, ITEM_MASTER_BALL),
+    TRAINER_CLASS(GALACTIC_ADMIN, "GALACTIC ADMIN", 70, ITEM_CHERISH_BALL),
 };
 
 static void (* const sTurnActionsFuncsTable[])(void) =
@@ -5320,7 +5323,7 @@ static void HandleEndTurn_BattleWon(void)
         if (gTrainerBattleOpponent_A == TRAINER_FRONTIER_BRAIN)
             PlayBGM(MUS_VICTORY_GYM_LEADER);
         else
-            PlayBGM(MUS_VICTORY_TRAINER);
+            PlayBGM(MUS_HG_VICTORY_TRAINER);
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_TRAINER && !(gBattleTypeFlags & BATTLE_TYPE_LINK))
     {
@@ -5342,10 +5345,10 @@ static void HandleEndTurn_BattleWon(void)
             PlayBGM(MUS_VICTORY_AQUA_MAGMA);
             break;
         case TRAINER_CLASS_LEADER:
-            PlayBGM(MUS_VICTORY_GYM_LEADER);
+            PlayBGM(MUS_DP_VICTORY_GYM_LEADER);
             break;
         default:
-            PlayBGM(MUS_VICTORY_TRAINER);
+            PlayBGM(MUS_HG_VICTORY_TRAINER);
             break;
         }
     }

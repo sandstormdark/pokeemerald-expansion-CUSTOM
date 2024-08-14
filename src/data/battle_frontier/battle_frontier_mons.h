@@ -3276,6 +3276,13 @@ const struct TrainerMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .ev = TRAINER_PARTY_EVS(170, 0, 170, 0, 0, 170),
         .nature = NATURE_ADAMANT
     },
+    [FRONTIER_MON_RHYPERIOR_1] = {
+        .species = SPECIES_RHYPERIOR,
+        .moves = {MOVE_ROCK_SLIDE, MOVE_MEGAHORN, MOVE_BRICK_BREAK, MOVE_STONE_EDGE},
+        .heldItem = ITEM_LIFE_ORB,
+        .ev = TRAINER_PARTY_EVS(252, 252, 0, 0, 0, 0),
+        .nature = NATURE_ADAMANT
+    },
     [FRONTIER_MON_DUGTRIO_2] = {
         .species = SPECIES_DUGTRIO,
         .moves = {MOVE_EARTHQUAKE, MOVE_ANCIENT_POWER, MOVE_AERIAL_ACE, MOVE_TRI_ATTACK},
@@ -3946,6 +3953,13 @@ const struct TrainerMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .moves = {MOVE_MEGA_KICK, MOVE_SHADOW_BALL, MOVE_YAWN, MOVE_AMNESIA},
         .heldItem = ITEM_LEFTOVERS,
         .ev = TRAINER_PARTY_EVS(0, 0, 252, 0, 0, 252),
+        .nature = NATURE_ADAMANT
+    },
+    [FRONTIER_MON_RHYPERIOR_2] = {
+        .species = SPECIES_RHYPERIOR,
+        .moves = {MOVE_ROCK_SLIDE, MOVE_MEGAHORN, MOVE_BRICK_BREAK, MOVE_REST},
+        .heldItem = ITEM_CHESTO_BERRY,
+        .ev = TRAINER_PARTY_EVS(252, 252, 0, 0, 0, 0),
         .nature = NATURE_ADAMANT
     },
     [FRONTIER_MON_DUGTRIO_3] = {
@@ -4620,6 +4634,13 @@ const struct TrainerMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .ev = TRAINER_PARTY_EVS(0, 0, 252, 0, 0, 252),
         .nature = NATURE_ADAMANT
     },
+     [FRONTIER_MON_RHYPERIOR_3] = {
+        .species = SPECIES_RHYPERIOR,
+        .moves = {MOVE_ROCK_SLIDE, MOVE_MEGAHORN, MOVE_BRICK_BREAK, MOVE_REST},
+        .heldItem = ITEM_CHESTO_BERRY,
+        .ev = TRAINER_PARTY_EVS(252, 252, 0, 0, 0, 0),
+        .nature = NATURE_ADAMANT
+    },
     [FRONTIER_MON_DUGTRIO_4] = {
         .species = SPECIES_DUGTRIO,
         .moves = {MOVE_EARTHQUAKE, MOVE_DOUBLE_EDGE, MOVE_ROCK_SLIDE, MOVE_FISSURE},
@@ -5291,6 +5312,13 @@ const struct TrainerMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .heldItem = ITEM_LUM_BERRY,
         .ev = TRAINER_PARTY_EVS(0, 0, 0, 0, 252, 252),
         .nature = NATURE_MODEST
+    },
+     [FRONTIER_MON_RHYPERIOR_4] = {
+        .species = SPECIES_RHYPERIOR,
+        .moves = {MOVE_ROCK_SLIDE, MOVE_MEGAHORN, MOVE_BRICK_BREAK, MOVE_REST},
+        .heldItem = ITEM_CHESTO_BERRY,
+        .ev = TRAINER_PARTY_EVS(252, 252, 0, 0, 0, 0),
+        .nature = NATURE_ADAMANT
     },
     [FRONTIER_MON_ARTICUNO_1] = {
         .species = SPECIES_ARTICUNO,

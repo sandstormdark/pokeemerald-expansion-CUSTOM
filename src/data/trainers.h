@@ -28795,7 +28795,7 @@ F_TRAINER_FEMALE |
 #line 11403
         .trainerName = _("TRENT"),
 #line 11404
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_TEAM_GALACTIC,
 #line 11405
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender = 
